@@ -7,7 +7,6 @@ def generate(length, chars):
     return password
 
 def main():
-    # get input from console
     length = int(input("How long do you want your password to be? "))
     mode = int(input("How secure do you want your password to be? (1-3)\n1. Easy(a-z)\n2. Medium(a-z,A-Z)\n3. Hard(a-z,A-Z,0-9) "))
     if mode == 1:
